@@ -1,5 +1,5 @@
 const assert = require('assert');
-const MochaObj = require('../syntaxFunctionStatements');
+const MochaObj = require('../problems/syntaxFunctionStatements');
 
 describe('MochaObj', function () {
     //ask mocha do for us
