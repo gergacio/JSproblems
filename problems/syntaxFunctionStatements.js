@@ -172,5 +172,6 @@ MochaObj.prototype.stars = function f(n){
 MochaObj.prototype.agrElem =function (arr) {
          return `${arr.reduce((a, v) => a + v, 0)}, ${arr.reduce((a, v) => a + 1 / v, 0)}, ${arr.join("")}`
 }
+
 //always export 
 module.exports = MochaObj;

@@ -1,15 +1,18 @@
 const assert = require('assert');
 const MochaObj = require('../problems/syntaxFunctionStatements');
+const ArrMochaObj = require('../problems/arrays.js');
 
 describe('MochaObj', function () {
     //ask mocha do for us
     //run this before all test to run
     let mochaObj; //can use across test files --- Arranging
+    let arrMochaObj;
 
     beforeEach(function () {
         //no let cause cant reference
         //re - set before any test
          mochaObj = new MochaObj();
+         arrMochaObj = new ArrMochaObj();
     })
 
     it('should have a string back with his len', function () {
@@ -102,12 +105,14 @@ describe('MochaObj', function () {
         assert.strictEqual(actual, '6, 1.8333333333333333, 123');
     });
 
+    it('should have even position elements', function () {
+        //Arrange (make object)
 
-
-
-
-
-
+        //Act
+        const actual = arrMochaObj.evenElem(['20', '30', '40', '50', '60']);
+        //Assert
+        assert.strictEqual(actual, '20 40 60');
+    });
 
 
 });
