@@ -113,6 +113,17 @@ describe('MochaObj', function () {
         //Assert
         assert.strictEqual(actual, '20 40 60');
     });
+    it('should have last k num seq', function () {
+        //Arrange (make object)
+
+        //Act
+        const actual = arrMochaObj.lastKNumSeq(6, 3 );
+        const exp = "1, 1, 2, 4, 7, 13";
+
+     
+        //Assert
+        assert.strictEqual(actual, exp);
+    });
 
 
 });
