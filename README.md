@@ -1,5 +1,5 @@
 # JavaScriptProblemSolver App
-> Live demo [_here_](./screenshots/mocha_tests.png). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -26,10 +26,10 @@
 ## Features
 
 - JS Syntax, Functions and Statements.
-- JS Arrays and Nested Arrays.
+- Arrays and Nested Arrays.
 
 ## Screenshots
-![Example screenshot]()
+![Example screenshot](./screenshots/mocha_tests.png)
 <!-- ![Example screenshot](./screenshots/shopska_salad.png) -->
 <!-- If you have screenshots you'd like to share, include them here. -->
 
