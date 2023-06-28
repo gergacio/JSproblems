@@ -13,7 +13,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- JavaScriptProblemSolver App provides a variety of JavaScript practice exercises.
+- JavaScriptProblems provides a variety of JavaScript practice exercises.
 
 
 ## Technologies Used
