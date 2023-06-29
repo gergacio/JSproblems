@@ -25,8 +25,13 @@
 
 ## Features
 
-- JS Syntax, Functions and Statements.
-- Arrays and Nested Arrays.
+#### JS Fundamentals 
+
+- JS Syntax, Conditions and Loops exercises.
+- Data Types and Variables exercises.
+
+
+
 
 ## Screenshots
 ![Example screenshot](./screenshots/mocha_tests.png)
