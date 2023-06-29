@@ -41,6 +41,9 @@
 ## Setup
 
 <!-- Proceed to describe how to install / get started with the project. -->
+- Clone repo git clone https://github.com/gergacio/JSproblems.git
+- run npm install
+- run yarn run test
 
 
 ## Usage
