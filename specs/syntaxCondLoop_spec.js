@@ -15,12 +15,20 @@ describe('syntaxCondLoop', function () {
        
     })
 
-    it('should have a "baby" back ', function () {
+    it('should have a "elder" back ', function () {
         //Arrange (make object)
 
         //Act
-        const actual = syntaxCondLoop.ages(1);
+        const actual = syntaxCondLoop.ages(99);
         //Assert
-        assert.strictEqual(actual, "baby");
+        assert.strictEqual(actual, "elder");
+    });
+    it('should have a "out of bounds" back ', function () {
+        //Arrange (make object)
+
+        //Act
+        const actual = syntaxCondLoop.ages();
+        //Assert
+        assert.strictEqual(actual, "out of bounds");
     });
 });
