@@ -71,15 +71,3 @@ Project is: _in progress_
 
 ## Contact
 Created by [@GGG](http://3gbg.s3-website.eu-west-2.amazonaws.com/#intro) - feel free to contact me!
-
-
-
-<!-- 01. Syntax, Functions and Statements
-02. Arrays and Nested Arrays 
-03. Objects and Composition
-04. DOM Introduction
-05. DOM Manipulation and Events 
-06. Advanced Functions 
-07. Unit Testing and Error Handling
-08. Classes and Attributes 
-09. Prototypes and Inheritance -->
