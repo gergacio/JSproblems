@@ -2,7 +2,7 @@ const assert = require('assert');
 const SyntaxCondLoops = require("../jsFundamentals/syntaxCondLoops.js");
 
 
-describe('syntaxCondLoop', function () {
+describe('Syntax Conditions Loops', function () {
     //ask mocha do for us
     //run this before all test to run
     let syntaxCondLoop; //can use across test files --- Arranging
