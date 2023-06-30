@@ -4,7 +4,10 @@ const syntaxCondLoop = function(){};
 
 //----------------- ----------------------------   START   --------------------------- --------------------------
 
+
+
 //----------------- ---------------------------- exercise 01 --------------------------- --------------------------
+
 
 
 // 1.Ages
@@ -47,7 +50,9 @@ syntaxCondLoop.prototype.ages = function(x){
 }
 
 
+
 //----------------- ---------------------------- exercise 02 --------------------------- --------------------------
+
 
 
 // 2. Rounding
@@ -62,7 +67,9 @@ syntaxCondLoop.prototype.rounding = function(x, y) {
 }
 
 
+
 //----------------- ---------------------------- exercise 03 --------------------------- --------------------------
+
 
 
 // 3. Division
@@ -85,7 +92,10 @@ syntaxCondLoop.prototype.division = function(n) {
 }
 
 
+
 //----------------- ---------------------------- exercise 04 --------------------------- --------------------------
+
+
 
 // 4. Vacation
 // You are given a group of people, the type of the group, and the day of the week they are going to stay. Based on
@@ -126,9 +136,9 @@ syntaxCondLoop.prototype.vacation = function(number, type, day) {
 
 
 
-
-
 //----------------- ---------------------------- exercise 05 --------------------------- --------------------------
+
+
 
 // 5. Leap Year
 // Write a JS function to check whether a year is a leap. Leap years are either divisible by 4 but not by 100 or are
@@ -142,7 +152,9 @@ syntaxCondLoop.prototype.leapyear = function(y) {
 }
 
 
+
 //----------------- ---------------------------- exercise 06 --------------------------- --------------------------
+
 
 
 // 6. Print and Sum
@@ -166,8 +178,9 @@ syntaxCondLoop.prototype.printAndSum = function(v1, v2) {
 
 
 
-
 //----------------- ---------------------------- exercise 07 --------------------------- --------------------------
+
+
 
 // 7. Triangle of Numbers
 // Write a function, which receives a single number – n, and prints a triangle from 1 to n as in the examples
@@ -190,7 +203,9 @@ syntaxCondLoop.prototype.multiplicationTable = function(n) {
     }
     return output;
 }
-//----------------- ----------------------------   END   --------------------------- --------------------------
 
+
+
+//----------------- ----------------------------   END   --------------------------- --------------------------
 
 module.exports = syntaxCondLoop;
