@@ -42,7 +42,7 @@ describe('syntaxCondLoop', function () {
         assert.strictEqual(actual, 3.14);
     });
 
-    it('number is divisible by 10" back ', function () {
+    it('should have a "number is divisible by 10" back ', function () {
         //Arrange (make object)
 
         //Act
@@ -51,7 +51,7 @@ describe('syntaxCondLoop', function () {
         assert.strictEqual(actual, "The number is divisible by 10");
     });
 
-    it('Total price: 266.73" back ', function () {
+    it('should have a "Total price: 266.73" back ', function () {
         //Arrange (make object)
 
         //Act
@@ -60,7 +60,7 @@ describe('syntaxCondLoop', function () {
         assert.strictEqual(actual, "Total price: 266.73");
     });
 
-    it('pass 1984 get "yes"', function () {
+    it('should have a "yes" back', function () {
         //Arrange (make object)
 
         //Act
@@ -69,7 +69,7 @@ describe('syntaxCondLoop', function () {
         assert.strictEqual(actual, "yes");
     });
 
-    it('print 5 6 7 8 9 10 Sum: 45', function () {
+    it('should have a "5 6 7 8 9 10 Sum: 45" back', function () {
         //Arrange (make object)
 
         //Act
@@ -78,7 +78,7 @@ describe('syntaxCondLoop', function () {
         assert.strictEqual(actual,"5 6 7 8 9 10 Sum: 45");
     });
 
-    it('3 X 1 = 33 X 2 = 63 X 3 = 93 X 4 = 123 X 5 = 153 X 6 = 183 X 7 = 213 X 8 = 243 X 9 = 273 X 10 = 30', function () {
+    it('should have a "3 X 1 = 33 X 2 = 63 X 3 = 93 X 4 = 123 X 5 = 153 X 6 = 183 X 7 = 213 X 8 = 243 X 9 = 273 X 10 = 30" back', function () {
         //Arrange (make object)
 
         //Act
