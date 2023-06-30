@@ -1,7 +1,7 @@
 const assert = require("assert");
 const DataTypes = require("../jsFundamentals/dataTypes.js");
 
-describe('DataTypes', function () {
+describe('Data Types', function () {
     //ask mocha do for us
     //run this before all test to run
     let dataTypes; //can use across test files --- Arranging
