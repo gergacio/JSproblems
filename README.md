@@ -29,12 +29,28 @@
 
 - JS Syntax, Conditions and Loops exercises.
 - Data Types and Variables exercises.
+- Arrays exercises.
+- Functions exercises.
+- Arrays Advanced exercises.
+- Objects and Classes exercises.
+- Associative Arrays exercises.
+- Text Processing exercises.
+- Regular Expressions exercises.
 
-
+#### JS Advanced 
+- Syntax, Functions and Statements
+- Arrays and Nested Arrays
+- Objects and Composition
+- DOM Introduction 
+- DOM Manipulation and Events
+- Advanced Functions
+- Unit Testing and Error Handling
+- Classes and Attributes
+- Prototypes and Inheritance
 
 
 ## Screenshots
-![Example screenshot](./screenshots/mocha_tests.png)
+![Example screenshot](./screenshots/mocha.png)
 <!-- ![Example screenshot](./screenshots/shopska_salad.png) -->
 <!-- If you have screenshots you'd like to share, include them here. -->
 
