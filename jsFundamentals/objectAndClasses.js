@@ -261,11 +261,5 @@ objectAndClasses.prototype.vehicle = function(){
     
 }
 
-
-
-
-
-
-
 //----------------- ----------------------------   END   --------------------------- --------------------------
 module.exports = objectAndClasses;
