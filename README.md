@@ -25,34 +25,35 @@
 
 ## Features
 
-#### JS Fundamentals 
+#### JS Fundamentals (exercises and solutions).
 
-- JS Syntax, Conditions and Loops exercises.
-- Data Types and Variables exercises.
-- Arrays exercises.
-- Functions exercises.
-- Arrays Advanced exercises.
-- Objects and Classes exercises.
-- Associative Arrays exercises.
-- Text Processing exercises.
-- Regular Expressions exercises.
+- JS Syntax, Conditions and Loops.
+- Data Types and Variables.
+- Arrays.
+- Functions.
+- Arrays Advanced.
+- Objects and Classes.
+- Associative Arrays.
+- Text Processing.
 
-#### JS Advanced 
-- Syntax, Functions and Statements
-- Arrays and Nested Arrays
-- Objects and Composition
-- DOM Introduction 
-- DOM Manipulation and Events
-- Advanced Functions
-- Unit Testing and Error Handling
-- Classes and Attributes
-- Prototypes and Inheritance
+##
+
+#### JS Advanced (exercises and solutions).
+
+- Syntax, Functions and Statements.
+- Arrays and Nested Arrays.
+- Objects and Composition.
+- DOM Introduction.
+- DOM Manipulation and Events.
+- Advanced Functions.
+- Unit Testing and Error Handling.
+- Classes and Attributes.
+- Prototypes and Inheritance.
 
 
 ## Screenshots
+
 ![Example screenshot](./screenshots/mocha.png)
-<!-- ![Example screenshot](./screenshots/shopska_salad.png) -->
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Setup
 
@@ -67,7 +68,9 @@
 
 
 ## Project Status
+
 Project is: _in progress_ 
 
 ## Contact
+
 Created by [@GGG](http://3gbg.s3-website.eu-west-2.amazonaws.com/#intro) - feel free to contact me!
