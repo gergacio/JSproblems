@@ -53,7 +53,7 @@
 
 ## Screenshots
 
-![Example screenshot](./screenshots/mocha.png)
+![Example screenshot](./screenshots/mocha_js.png)
 
 ## Setup
 
