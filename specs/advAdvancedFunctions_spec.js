@@ -14,65 +14,61 @@ describe('AdvJS Advanced Functions', function () {
        
     })
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+    it('should have a "" back ', function () {
+        //Arrange (make object)
 
-    //     //Act
-    //     const actual = advAdvancedFunctions.();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
-        // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+        //Act
+        const arr = advAdvancedFunctions.sortArr([14, 7, 17, 6, 8], 'asc');
+        const actual = arr.join(", ");
+        //Assert
+        assert.strictEqual(actual, "6, 7, 8, 14, 17");
+    });
 
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
+    it('should have a "" back ', function () {
+        //Arrange (make object)
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+        //Act
+        const actual = advAdvancedFunctions.argumentInfo('cat', 42, function () { console.log('Hello world!'); });
+        //Assert
+        assert.strictEqual(actual, "string: cat number: 42 function: function () { console.log('Hello world!'); } string = 1 number = 1 function = 1");
+    });
 
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
+    it('should have a "13" back ', function () {
+        //Arrange (make object)
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+        //Act
+        const fib = advAdvancedFunctions.fibonacci();
+        const result1 = fib();
+        const result2 = fib();
+        const result3 = fib();
+        const result4 = fib();
+        const result5 = fib();
+        const result6 = fib();
+        const actual = fib();
+        //Assert
+        assert.strictEqual(actual, 13);
+    });
 
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
+    it('should have a "Error: not enough carbohydrate in stock" back ', function () {
+        //Arrange (make object)
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+        //Act
+        let manager = advAdvancedFunctions.breakfastRobot();
+        const result1 = manager("restock flavour 50");
+        const actual = manager("prepare lemonade 4");
+        
+        //Assert
+        assert.strictEqual(actual, "Error: not enough carbohydrate in stock");
+    });
 
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
+    it('should have a "4" back ', function () {
+        //Arrange (make object)
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+        //Act
+        const actual = Number(advAdvancedFunctions.functionalSum(1)(6)(-3));
+        
+        //Assert
+        assert.strictEqual(actual, 4);
+    });
 
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
-
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
-
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
 });
