@@ -13,7 +13,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- JavaScriptProblems provides a variety of JavaScript practice exercises.
+- JSproblems provides a variety of JavaScript practice exercises.
 
 
 ## Technologies Used
