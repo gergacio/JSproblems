@@ -14,55 +14,44 @@ describe('AdvanceJS Classes', function () {
        
     })
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+    it('should have a "Red" back ', function () {
+        //Arrange (make object)
 
-    //     //Act
-    //     const actual = advClasses.();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
-        // it('should have a "" back ', function () {
-    //     //Arrange (make object)
+        //Act
+        const Rectangle = advClasses.rectangle();
+ 
+        rect = new Rectangle(4, 5, 'Red');
+        let actual = rect.color;
+        //Assert
+        assert.strictEqual(actual, "Red");
+    });
 
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
+    it('should have a "http://google.com" back ', function () {
+        //Arrange (make object)
 
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
-
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
+        //Act
+        const Request = advClasses.dataClass();
+        let myData = new Request('GET', 'http://google.com', 'HTTP/1.1', '')
+        let actual = myData.uri;
+        //Assert
+        assert.strictEqual(actual, 'http://google.com');
+    });
 
     // it('should have a "" back ', function () {
     //     //Arrange (make object)
 
     //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
+    //     const actual = advClasses.tickets(['Philadelphia|94.20|available','New York City|95.99|available','New York City|95.99|sold','Boston|126.20|departed'],'destination');
+
     //     //Assert
-    //     assert.strictEqual(actual, "");
+    //     assert.strictEqual(actual, "Ticket { destination: 'Boston',price: 126.20,status: 'departed' }, { destination: 'New York City',price: 95.99, status: 'available' }, { destination: 'New York City',price: 95.99,status: 'sold' }, { destination: 'Philadelphia',price: 94.20,status: 'available' }");
     // });
 
     // it('should have a "" back ', function () {
     //     //Arrange (make object)
 
     //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
-    //     //Assert
-    //     assert.strictEqual(actual, "");
-    // });
-
-    // it('should have a "" back ', function () {
-    //     //Arrange (make object)
-
-    //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
+    //     const actual = advClasses.fruit();
     //     //Assert
     //     assert.strictEqual(actual, "");
     // });
@@ -71,8 +60,9 @@ describe('AdvanceJS Classes', function () {
     //     //Arrange (make object)
 
     //     //Act
-    //     const actual = advSyntaxFuncStatements.fruit();
+    //     const actual = advClasses.fruit();
     //     //Assert
     //     assert.strictEqual(actual, "");
     // });
+
 });
